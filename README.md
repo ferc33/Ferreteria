@@ -27,3 +27,11 @@ Listado de productos por proveedor
 CRUD de categorias.
 
 ![Categorias](https://github.com/ferc33/Ferreteria/blob/main/src/Sistema%20Imagenes/CRUD-Categorias.png)
+
+Proveedores
+
+![Proveedores](https://github.com/ferc33/Ferreteria/blob/main/src/Sistema%20Imagenes/CRUD-Proveedores.png)
+
+Actualizaciones
+
+![Actualizacion](https://github.com/ferc33/Ferreteria/blob/main/src/Sistema%20Imagenes/ActualizacionDeProductos.png)
