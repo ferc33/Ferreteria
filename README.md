@@ -1,7 +1,7 @@
 # Ferreteria
 
 
-Sistema orientado a la gestion y administracion de ferreterias y/o corralone.
+Sistema orientado a la gestion y administracion de ferreterias y/o corralones.
 
 
 Para crear el usuario admin:
