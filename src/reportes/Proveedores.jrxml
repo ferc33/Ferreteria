@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Proveedores" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="db4b7fc8-ef4c-4ec0-a938-aafb0de57301">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="db-sistema"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM CAT_PROVEEDORES]]>
+	</queryString>
+	<field name="ID_PROVEEDOR" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ID_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="CAT_PROVEEDORES"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="NOM_PROVEEDOR" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="NOM_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.label" value="NOM_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="CAT_PROVEEDORES"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="DIR_PROVEEDOR" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="DIR_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.label" value="DIR_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="CAT_PROVEEDORES"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="TEL_PROVEEDOR" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="TEL_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.label" value="TEL_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="CAT_PROVEEDORES"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="EMAIL_PROVEEDOR" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="EMAIL_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.label" value="EMAIL_PROVEEDOR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="CAT_PROVEEDORES"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="56" splitType="Stretch">
+			<image>
+				<reportElement x="-10" y="-17" width="220" height="73" uuid="b7bee31c-dd91-43d1-88a2-0fd1a678f2e7"/>
+				<imageExpression><![CDATA["/home/ferc/Imágenes/ARTICULOS/logo_tecnogas_transp.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="14" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="30" uuid="3a8708d8-f816-44c6-b90c-6a165e14f0cb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="40c5cd83-da4d-4c84-8a85-b14a8a6e0922"/>
+				</reportElement>
+				<text><![CDATA[ID_PROVEEDOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="0" width="100" height="30" uuid="d2974bb9-44b7-4709-aa31-f000efaf6136">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8349b489-05fc-493e-b8fc-4782d77f44d4"/>
+				</reportElement>
+				<text><![CDATA[NOM_PROVEEDOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="0" width="100" height="30" uuid="231d8258-84b1-4d13-b5a1-03fcabc0c82a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3a25ac9b-d62c-4bb9-877e-1e756ab370f9"/>
+				</reportElement>
+				<text><![CDATA[DIR_PROVEEDOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="339" y="0" width="100" height="30" uuid="3551276e-2331-48f9-b066-f2d967d61664">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4bff8cee-89df-4338-80e0-96f750f2061b"/>
+				</reportElement>
+				<text><![CDATA[TEL_PROVEEDOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="451" y="0" width="100" height="30" uuid="2eebb73e-3449-4c98-a6b6-4bf7aab3c093">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3338bd21-2376-4a66-b5a1-8e7f08b5df7a"/>
+				</reportElement>
+				<text><![CDATA[EMAIL_PROVEEDOR]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="39" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="30" uuid="d863b209-7e4e-4b73-8e77-8dd8c3916043">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="40c5cd83-da4d-4c84-8a85-b14a8a6e0922"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{ID_PROVEEDOR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="100" height="30" uuid="2ff18065-4af5-401e-960e-776abab2b12b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8349b489-05fc-493e-b8fc-4782d77f44d4"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{NOM_PROVEEDOR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="0" width="100" height="30" uuid="625389c6-1b95-42fe-96a7-a394b0d871d5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3a25ac9b-d62c-4bb9-877e-1e756ab370f9"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{DIR_PROVEEDOR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="339" y="3" width="100" height="30" uuid="ba6554d6-53f9-4b79-b112-26922611a38c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4bff8cee-89df-4338-80e0-96f750f2061b"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TEL_PROVEEDOR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="451" y="0" width="100" height="30" uuid="bce5b1af-9db1-4abf-a3ad-5bf51dd709b8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3338bd21-2376-4a66-b5a1-8e7f08b5df7a"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{EMAIL_PROVEEDOR}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
