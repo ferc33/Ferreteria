@@ -202,8 +202,8 @@ public class VistaCATEGORIA extends JDialog {
 		TableColumn id = tablaCategoria.getColumn("ID");
 		TableColumn des = tablaCategoria.getColumn("Descripcion");
 
-		id.setMaxWidth(30);
-		id.setMinWidth(30);
+		id.setMaxWidth(60);
+		id.setMinWidth(60);
 
 		des.setMinWidth(600);
 		des.setMaxWidth(200);
