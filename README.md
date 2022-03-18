@@ -12,3 +12,5 @@ Para crear el usuario admin:
 4) Registrarse aprentando sobre el boton 'registrar'
 5) Iniciar sesion de administrador para usar todo el sistema.
 
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+
