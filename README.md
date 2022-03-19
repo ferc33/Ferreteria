@@ -20,6 +20,14 @@ Vista General
 
 ![Escritorio](https://github.com/ferc33/Ferreteria/blob/main/src/Sistema%20Imagenes/Escritorio.png)
 
+Articulos
+
+![Articulos](https://github.com/ferc33/Ferreteria/blob/main/src/Sistema%20Imagenes/Articulos.png)
+
+Ventas
+
+![Ventas](https://github.com/ferc33/Ferreteria/blob/main/src/Sistema%20Imagenes/Ventas.png)
+
 Listado de productos por proveedor
 
 ![Reporte](https://github.com/ferc33/Ferreteria/blob/main/src/Sistema%20Imagenes/Reportes.png)
